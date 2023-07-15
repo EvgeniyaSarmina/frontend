@@ -1,0 +1,245 @@
+body {
+    font-family: 'TT Hoves';
+    color: #222222;
+    margin: 0;
+}
+
+.section1 {
+    padding: 0 120px;
+    background-image: url('/html_css_js\ 1.png');
+    background-repeat: no-repeat;
+    background-position: top 20px right 20px;
+
+}
+
+.logo {
+    width: 295px;
+    margin-top: 37px;
+}
+.courseData {
+    font-size : 21px;
+    line-height: 140%;
+    margin-top: 85px;
+    display: flex;
+    gap: 30px 160px;
+    flex-wrap: wrap;
+}
+
+.courseData .value {
+    font-weight: 700;
+}
+
+h1 {
+    font-family: Chava;
+    font-size: 80px;
+    line-height: 110%;
+    margin: 76px 0 40px;
+}
+
+p {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 140%;
+    
+
+}
+
+.cta {
+   display: flex; 
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+.primary {
+    width: 328px;
+    background:#6E3ABA ;
+    border-radius: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.secondary {
+    width: 328px;
+    background:#FFFFFF ;
+    border-radius: 12px;
+    color: #6E3ABA;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+    border: 1px solid #6E3ABA;
+}
+.section2 {
+    padding: 0px 120px;
+    margin-top: 160px;
+}
+.heading h2 {
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    width: 769px;
+    height: 136px;
+    
+}
+
+.firstline {
+    display: flex;
+    gap: 40px 70px;
+    flex-wrap: wrap;
+}
+
+
+.description {
+    font-size: 27px;
+    line-height: 140%;
+    width: 450px;
+    margin-top: 20px;
+}
+
+.description2 {
+    font-size: 27px;
+    line-height: 140%;
+    width: 450px;
+    margin-top: 20px;
+}
+
+
+.secondline {
+    display: flex;
+    gap: 40px 88px;
+    flex-wrap: wrap;
+}
+
+.section2 h3 {
+    width: 420px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.prof3 h3 {
+    width: 38px;
+    height: 76px;
+}
+
+.description3 {
+    font-size: 27px;
+    line-height: 140%;
+    width: 432px;
+    margin-top: 20px;
+}
+
+.description4 {
+    font-size: 27px;
+    line-height: 140%;
+    width: 477px;
+    margin-top: 20px;
+}
+.prof3 {
+    width: 432px;
+    height: 468px;
+    margin-top: 30px;
+}
+
+.prof4 {
+    width: 477px;
+    height: 506px;
+}
+.girl2 {
+    width: 238px;
+    height: 238px;
+}
+.prof2 {
+   width: 450px;
+   height: 468px;
+}
+
+.prof1 {
+    width: 450px;
+    height: 506px;
+}
+.man {
+    width: 210px;
+    height: 210px;
+}
+.purple {
+    padding: 0px;
+    margin-top: 160px;
+    background: #6E3ABA;
+}
+.discount {
+    font-size: 52px;
+    color:#FFFFFF;
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-left: 302px;
+    width: 680px;
+    height: 61px;
+}
+
+.purplediscount {
+    display: flex;
+    margin-left: 164px;
+    gap: 90px;
+}
+
+.purplediscount .number {
+color: #2F1D4E;
+font-family: Chava;
+font-size: 174px;
+line-height: 107.5%;
+width: 251px;
+height: 187px;
+}
+
+.purplediscount .date {
+color: #2F1D4E;
+text-align: center;
+font-size: 27px;
+font-weight: 500;
+text-transform: uppercase;
+}
+
+.purple .secondary {
+    margin-top: 57px;
+    margin-left: 505px;
+}
+.section4 {
+    padding: 0px 120px;
+    margin-bottom: 120px;
+}
+.section4 .primary {
+    display: block;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.section4 .border {
+    border: 2px solid black;
+    padding: calc(2.6vw + 6px) calc(4.9vw + 2px);
+}
+.section4 h2 {
+    font-size: calc(2.7vw + 24px);  
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    margin: calc(1.7vw + 17px) 0;
+}
+.lesson {
+    font-size: calc(0.5vw + 14px);
+    padding: 24px 0;
+    border-bottom: 1px solid black;
+}
+@media (max-width: 375px) {
+    .section4 .primary {
+        display: none;
+    }
+    .border::after {
+        content:"Получить полную программу курса"
+    }
+}
