@@ -235,11 +235,3 @@ text-transform: uppercase;
     padding: 24px 0;
     border-bottom: 1px solid black;
 }
-@media (max-width: 375px) {
-    .section4 .primary {
-        display: none;
-    }
-    .border::after {
-        content:"Получить полную программу курса"
-    }
-}
