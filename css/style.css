@@ -235,3 +235,66 @@ text-transform: uppercase;
     padding: 24px 0;
     border-bottom: 1px solid black;
 }
+section {
+    margin-top: calc(11.04vw + 19px);
+    padding: 0px 120px;
+}
+.section5 h2 {
+font-size: 58px;
+font-weight: 500;
+letter-spacing: 0.58px;
+text-transform: uppercase;
+}
+.student_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section5 p {
+    font-size: calc(0.33vw + 17px);
+}
+
+.student_container_text {
+    max-width: 520px;
+}
+
+.student_img {
+    width: calc(23.1vw + 283px);
+}
+
+.student_img img {
+    width: 100%;
+}
+.reviews {
+   display: flex; 
+   gap: 30px;
+}
+.review_card {
+    border-radius: 12px;
+    background: #F0F7FD;
+    padding: 50px 20px 36px;
+}
+.review_card img {
+    margin-bottom: 8px;
+}
+.review_card p {
+    margin-top: 0px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.review_text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.review_text img {
+    border-radius: 50%;
+}
+.review_text p {
+    max-width: 169px;
+    margin-bottom: 0;
+}
